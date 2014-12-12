@@ -59,7 +59,7 @@ class Login : UIViewController {
             var homeVC = segue.destinationViewController as Home
             println(accessToken!)
             homeVC.token = accessToken
-            //homeVC.token =
+            println("Test")
         }
     }
     
