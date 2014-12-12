@@ -60,6 +60,7 @@ class Login : UIViewController {
             println(accessToken!)
             homeVC.token = accessToken
             println("Test")
+            println("Test 2")
         }
     }
     
